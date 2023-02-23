@@ -1,19 +1,53 @@
-.box{
-    width: 50px;
-    height: 50px;
-    margin-bottom: 8px;
+body{
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer"
+    ;
+
+    grid-template-rows: 30px 1fr 40px ;
+    grid-template-columns: 1fr 80px;
 }
 
-.top1{
-    background-color: aqua;
-    position: relative;
-    left: 10px;
+header{
+    grid-area: header;
+    background-color: rgb(230, 177, 177);
 
-}
-.top2{
-    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    padding: 0px 8px;  
 }
-.top3{
-    background-color: cadetblue;
+main{
+    grid-area: main;
+    background-color: antiquewhite;
+}
+
+main h2{
+    font-family: 'Times New Roman', Times, serif;font-weight: bold ;
+    font-size: 2.6rem;
+    font-family: 'Grape Nuts', cursive;
+    letter-spacing: 8px;
+    line-height: 2px;
+    /* font-variant:inherit; */
+}
+main p{
+    font-style: italic;
+    font-variant: small-caps;
+    font-stretch: 50%;
+    text-decoration:underline;
+}
+
+aside{
+    grid-area: aside;
+    background-color: cornflowerblue;
+}
+
+footer{
+    grid-area: footer;
+    background-color: darkcyan;
 }
