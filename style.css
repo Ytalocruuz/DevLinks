@@ -1,15 +1,16 @@
 body{
-    display: grid;
+    /* display: grid;
     margin: 0;
     height: 100vh;
     grid-template-areas:
     "header header"
-    "main aside"
-    "footer footer"
+    "main main"
     ;
 
-    grid-template-rows: 30px 1fr 40px ;
-    grid-template-columns: 1fr 80px;
+    grid-template-rows: 30px 100px ;
+    grid-template-columns: 1fr 80px; */
+    background-color: rgb(47, 98, 98);
+    color: aliceblue;
 }
 
 header{
@@ -42,7 +43,7 @@ main p{
     text-decoration:underline;
 }
 
-aside{
+/* aside{
     grid-area: aside;
     background-color: cornflowerblue;
 }
@@ -50,4 +51,4 @@ aside{
 footer{
     grid-area: footer;
     background-color: darkcyan;
-}
+} */

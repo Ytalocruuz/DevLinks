@@ -11,15 +11,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Kalam&family=Koulen&family=Rajdhani&family=Raleway:ital,wght@0,100;1,100&family=Satisfy&family=Shantell+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <!-- <header>
         <div>Logo</div>
         <div>Manu</div>
     </header>
     <main>
         <h2>Conteúdo</h2>
         <p>Discrição testando funções</p>
-    </main>
-    <aside>Informações Adicionais</aside>
-    <footer>Rodapé</footer>
+    </main> -->
+
+    <form id="contato" action="" method="get">
+        <fieldset form="contato"> 
+            <legend>Contato</legend>
+            <label for="">Nome</label>
+            <input type="password" autocomplete="new-password" pattern="1-9" value="....">
+            <BUTton type="reset" autofocus>Enviar</BUTton>
+        </fieldset>
+        
+    </form>
+    <br>
+
+    <input type="text" list="testedatalist" placeholder="Ecolha uma fruta: "/>
+
+    <datalist id="testedatalist">
+        <option>Apple</option>
+        <option>Apple</option>
+        <option>Apple</option>
+        <option>Apple</option>
+        
+    </datalist>
+
+    <br> 
+    <br>
+    <input type="password" autocomplete="new-password"  required>
+    <input type="number" autocomplete="number">
+    <br>
+    <form action="">
+        <input placeholder="https" required type="url" pattern=".*/.com/.*"
+        title="Coloque uma url correta">
+        <input type="file" multiple>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- <label for="">
+        Nome: 
+        <input type="text">
+        <button>Enviar</button>
+    </label> -->
+    <!-- <aside>Informações Adicionais</aside>
+    <footer>Rodapé</footer> -->
 </body>
 </html>
