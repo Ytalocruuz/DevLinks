@@ -19,6 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O DevLinks é um agragador de links para usar com cartão de visitas online. 
 
 📝 Licença
+
 Esse projeto está sob a licença MIT.
 
-Feito com ♥ by Rocketsea
+<p align="center">Feito com ♥ by Rocketsea</p>
