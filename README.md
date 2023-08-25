@@ -4,6 +4,7 @@
 
 <p><img alt="Projeto DevLinks" src="./assets/preview.jpg"></p>
 
+https://ytalocruuz.github.io/DevLinks/
 
 🚀 Tecnologias
 
